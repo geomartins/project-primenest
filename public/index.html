@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- Vendor Stylesheet -->
+    <link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/css/vendor.css">
+    <!-- Main Stylesheet -->
+    <link type="text/css" rel="stylesheet"  href="<%= BASE_URL %>assets/css/style.css">
+    <!-- responsive Stylesheet -->
+    <link type="text/css" rel="stylesheet"  href="<%= BASE_URL %>assets/css/responsive.css">
   </head>
   <body>
     <noscript>
@@ -13,5 +20,10 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <!-- all plugins here -->
+    <script src="<%= BASE_URL %>assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="<%= BASE_URL %>assets/js/main.js"></script>
   </body>
 </html>
