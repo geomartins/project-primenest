@@ -26,6 +26,21 @@ const routes = [
     component: () => import("../views/About.vue")
   },
   {
+    path: "/property",
+    name: "Property",
+    component: () => import("../views/Property.vue")
+  },
+  {
+    path: "/property_details",
+    name: "PropertyDetails",
+    component: () => import("../views/PropertyDetails.vue")
+  },
+  {
+    path: "/application",
+    name: "Application",
+    component: () => import("../views/Application.vue")
+  },
+  {
     path: "/404",
     name: "Error",
     component: () => import("../views/Error.vue")

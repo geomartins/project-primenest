@@ -107,7 +107,7 @@ import Master from "@/components/Master.vue";
 import BreadCrumb from "@/components/BreadCrumb.vue"
 
 export default {
-  name: "Contact",
+  name: "Faq",
   components: {
     "app-master" : Master,
     "app-breadcrumb" : BreadCrumb

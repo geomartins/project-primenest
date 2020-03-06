@@ -20,15 +20,7 @@
                     <ul class="navbar-nav menu-open">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About Us</a></li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Property</a>
-                            <ul class="sub-menu">
-                                <li><a href="property.html">Lilycourt Estate</a></li>
-                                <li><a href="propertys-availavbe.html">Primenest Estate</a></li>
-                               
-                            </ul>
-                        </li>
-                        
+                        <li><a href="/property">Properties</a></li>
                         <li><a href="/faq">FAQ</a></li>
                         <li><a href="/contact">Contact Us</a></li>
                     </ul>
