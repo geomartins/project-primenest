@@ -12,8 +12,12 @@
             <div class="row">
                 <div class="col-lg-5 align-self-center">
                     <div class="section-title mb-lg-0">
-                        <h2 class="title">About <br>Luxurius Home</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex condimentum pulvinar. Donec ornare imperdiet eros, varius eleifend sapien pharetra gravida. Sed sed tortor congue, tincidunt eros eu, egestas leo. Etiam turpis nunc, sagittis nec mauris vitae,</p>
+                        <h2 class="title">Comfort and Elegance 
+                            <!-- <br>Luxurius Home -->
+                            </h2>
+                        <p>Owning a property with us improves your quality of life and gives you peace of mind. Experience real comfort and safety in our fully furnished, roomy bungalows, keeping in mind that your perimeter and general areas of your interior are under 24/7 CCTV surveillance.
+Enjoy a treated water system, a central sewage system, and uninterrupted electricity. Get absorbed in the picturesque landscape as you drive through the boulevard or saunter along the paved walkways.
+</p>
                         <a class="btn-view-all-2" href="#">Learn More <i class="la la-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -22,7 +26,7 @@
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <i class="fa fa-bed"></i>
-                                <p>05 Bed</p>
+                                <p>03 Bed</p>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -34,25 +38,25 @@
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <img src="assets/img/icons/14.png" alt="icons">
-                                <p>01 Kitchens</p>
+                                <p>01 Kitchen</p>
                             </a>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <!-- <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <img src="assets/img/icons/15.png" alt="icons">
                                 <p>Drawing room</p>
                             </a>
-                        </div>
+                        </div> -->
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <img src="assets/img/icons/16.png" alt="icons">
-                                <p>1890 sq. ft</p>
+                                <p>300 m2</p>
                             </a>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <a class="cat-single text-center" href="#">
                                 <i class="fa fa-car"></i>
-                                <p>01 Garage</p>
+                                <p>01 Parking</p>
                             </a>
                         </div>
                     </div>
@@ -78,24 +82,24 @@
                         <div class="col-lg-6 align-self-end">
                             <div class="details">
                                 <span>01</span>
-                                <h6>Enjoyable Spacings</h6>
+                                <h6>Special Features </h6>
                                 <h2 class="title">Room Dimensions</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex </p>
+                                <p>Each of our bungalows cover a total dimension of 300 square metres. With luxurious en-suite bedrooms and an airy living room and kitchen area, you are sure to maximise space and avoid clutter. </p>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="rld-list-style mb-3 mb-sm-0">
                                             <li><i class="fa fa-check"></i> Full Furnished</li>
-                                            <li><i class="fa fa-check"></i> Royal touch Point</li>
-                                            <li><i class="fa fa-check"></i> Minimal Decored</li>
-                                            <li><i class="fa fa-check"></i> Tow way Road</li>
+                                            <li><i class="fa fa-check"></i> 24/7 CCTV Surveillance</li>
+                                            <li><i class="fa fa-check"></i> Uninterrupted power</li>
+                                            <li><i class="fa fa-check"></i> Treated water system</li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-6">
                                         <ul class="rld-list-style">
-                                            <li><i class="fa fa-check"></i> Perfect land</li>
-                                            <li><i class="fa fa-check"></i> Awesome view</li>
-                                            <li><i class="fa fa-check"></i> 24/7 Security</li>
-                                            <li><i class="fa fa-check"></i> Small Garden</li>
+                                            <li><i class="fa fa-check"></i> Central sewage system</li>
+                                            <li><i class="fa fa-check"></i> Ease of access</li>
+                                            <li><i class="fa fa-check"></i> Defined drive </li>
+                                            <li><i class="fa fa-check"></i> Paved sidewalks </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -103,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <div class="row">
                         <div class="col-xl-6 col-lg-7">
                             <div class="thumb">
@@ -137,8 +141,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
+                </div> -->
+                <!-- <div class="item">
                     <div class="row">
                         <div class="col-xl-6 col-lg-7">
                             <div class="thumb">
@@ -172,7 +176,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="ap2-slider-controls">
                 <!--slider-nav-->

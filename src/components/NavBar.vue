@@ -18,11 +18,11 @@
                 </div>
                 <div class="collapse navbar-collapse" id="realdeal_main_menu">
                     <ul class="navbar-nav menu-open">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/property">Properties</a></li>
-                        <li><a href="/faq">FAQ</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
+                        <li> <router-link to="/" tag="a"> Home </router-link> </li>
+                        <li>  <router-link to="/about" tag="a"> About Us </router-link> </li>
+                        <li> <router-link to="/property" tag="a"> Properties </router-link> </li>
+                        <li>  <router-link to="/faq" tag="a"> FAQ </router-link> </li>
+                        <li>  <router-link to="/contact" tag="a"> Contact Us </router-link> </li>
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">

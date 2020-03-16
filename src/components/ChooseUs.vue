@@ -10,22 +10,22 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="single-intro text-lg-left text-center">
                         <div class="thumb">
-                            <img src="assets/img/icons/11.png" alt="img">
+                            <img src="assets/img/icons/12.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4 class="title"><a href="#">Sell, Rent Property Free</a></h4>
-                            <p>Our experts answer all queries with their unmatched knowledge at every step of home buying.</p>
+                            <h4 class="title"><a href="#">Affordability and Flexibility of Payment </a></h4>
+                            <p>While we offer premium service, our properties are relatively affordable. Whether you subscribe to an instalment or mortgage, our payment plans are quite flexible and easy to fulfil.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-sm-6 offset-xl-1">
                     <div class="single-intro text-lg-left text-center">
                         <div class="thumb">
-                            <img src="assets/img/icons/12.png" alt="img">
+                             <img src="assets/img/icons/11.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4 class="title"><a href="#">In-depth Info on Investment Hotspots</a></h4>
-                            <p>Our experts answer all queries with their unmatched knowledge at every step of home buying.</p>
+                            <h4 class="title"><a href="#">Certificate of Ownership</a></h4>
+                            <p>Our estates have a certificate of ownership and other cogent documents backed by the state’s authority. This eliminates concerns that border on government’s forceful reacquisition.</p>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@
                             <img src="assets/img/icons/13.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4 class="title"><a href="#">Pool of Best Property Options</a></h4>
-                            <p>Our experts answer all queries with their unmatched knowledge at every step of home buying.</p>
+                            <h4 class="title"><a href="#">Guaranteed Security</a></h4>
+                            <p>Your safety is assured, each minute of each day. Our real-time monitored state-of-the-art security system provides surveillance for your perimeter and select areas of your interior. </p>
                         </div>
                     </div>
                 </div>
