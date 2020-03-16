@@ -29,34 +29,26 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Popular Searches</h4>
-                            <ul>
-                                <li><a href="index.html">Apartment for Rent</a></li>
-                                <li><a href="about.html">Apartment Low to hide</a></li>
-                                <li><a href="#">Offices for Buy</a></li>
-                                <li><a href="#">Offices for Rent</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="widget widget_nav_menu">
-                            <h4 class="widget-title">Homepress Markets</h4>
-                            <ul>
-                                <li><a href="index.html">Los Angeles Offices</a></li>
-                                <li><a href="about.html">Las Vegas Apartment</a></li>
-                                <li><a href="#">Sacramento Townhome</a></li>
-                                <li><a href="#">San Francisco Offices</a></li>
-                            </ul>
+                            <h4 class="widget-title">About Us</h4>
+                            <p>At Prime Nest we work to give every Nigerian a realistic opportunity to own a home of their dreams.  </p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Quick Links</h4>
                             <ul>
-                                <li><a href="index.html">Pricing Plans</a></li>
-                                <li><a href="about.html">Our Services</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                        <li>  <router-link to="/about" tag="a"> About Us </router-link> </li>
+                        <li> <router-link to="/property" tag="a"> Properties </router-link> </li>
+                        <li>  <router-link to="/faq" tag="a"> FAQ </router-link> </li>
+                        <li>  <router-link to="/contact" tag="a"> Contact Us </router-link> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget widget_nav_menu">
+                            <h4 class="widget-title">Featured Links</h4>
+                            <ul>
+                        <li>  <router-link to="#" tag="a"> Blog </router-link> </li>
                             </ul>
                         </div>
                     </div>
