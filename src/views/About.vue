@@ -71,9 +71,11 @@
                 <div class="col-lg-6 align-self-center">
                     <div class="section-title pd-left mb-0">
                         <h5 class="sub-title">About Us</h5>
-                        <h2 class="title">We Are Dynamic Team And Business Agency</h2>
-                        <p>Hand selected, local experienced agents, and neighborhood specialists, work with you to achieve your goals. The highest level of market knowledge, transparency, technology utilization, and transaction experience.</p>
-                        <a class="btn btn-yellow" href="#">More Service</a>
+                        <h2 class="title">We Are A Real Estate Development Company</h2>
+                        <p>Our mission is to provide stylish homes you won’t have to break the bank to own. We build and equip our estates with top-notch materials and furnishings. Your safety and convenience sit at the top of our priority list. </p>
+                        <p>At Prime Nest we work to give every Nigerian a realistic opportunity to own a home of their dreams. We are a responsive and energetic team of professionals committed to serving the exigent housing needs of our time.</p>
+                        <p> At Prime Nest, we improve people’s quality of life. We provide real estate solutions that guarantee a sustainable lifestyle. As a dynamic real estate investment and development company, we build communities to nurture possibilities through sociable involvement. </p>
+                        <!-- <a class="btn btn-yellow" href="#">More Service</a> -->
                     </div>
                 </div>
             </div>
@@ -82,7 +84,7 @@
     <!-- about area end -->
 
     <!-- service area start -->
-    <div class="service-area service-area-about mg-bottom-100 pb-xl-5 pd-0" style="background-image: url(assets/img/bg/5.png);">
+    <div class="service-area service-area-about mg-bottom-100 pb-xl-5 pd-0">
         <div class="container">
             <div class="section-title">
                 <h5 class="sub-title">Best Service</h5>
@@ -96,7 +98,7 @@
                             <img src="assets/img/icons/19.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4 class="title"><a href="#">Marketing Analaysis</a></h4>
+                            <h4 class="title"><a href="#">Property Development</a></h4>
                             <p>Describe your home online and get <br> your appraisal in 5 minutes</p>
                             <a class="read-more" href="#">Read More</a>
                         </div>
@@ -130,7 +132,6 @@
         </div>
     </div>
     <!-- service area end -->
-
     <!-- team area start -->
     <div class="team-area bg-gray mg-top-70 pd-top-90 pd-bottom-70">
         <div class="container">
