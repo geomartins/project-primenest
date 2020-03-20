@@ -46,29 +46,30 @@
                 </div>
             </div>
             <div class="row pd-top-92">
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-4 col-sm-6">
                     <div class="single-contact-info">
                         <p><i class="fa fa-phone"></i>Call Us:</p>
-                        <h5>(000) 111 222 333</h5>
+                        <h5>(+234) 708 082 9417</h5>
+                        <h5>(+234) 701 737 0898</h5>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6">
+                <!-- <div class="col-xl-4 col-sm-6">
                     <div class="single-contact-info">
-                        <p><i class="fa fa-fax"></i>Fax:</p>
-                        <h5>(000) 111 222 333</h5>
+                        <p><i class="fa fa-phone"></i>Call Us:</p>
+                        <h5>(+234) 111 222 333</h5>
                     </div>
-                </div>
-                <div class="col-xl-3 col-sm-6">
+                </div> -->
+                <div class="col-xl-4 col-sm-6">
                     <div class="single-contact-info">
                         <p><i class="fa fa-envelope"></i>Have any Question?</p>
-                        <h5>example@codingeek.net</h5>
+                        <h5>info@primenest.ng</h5>
                     </div>
                 </div>
-                <div class="col-xl-3 col-sm-6">
+                <div class="col-xl-4 col-sm-6">
                     <div class="single-contact-info">
-                        <p><i class="fa fa-phone"></i>Address</p>
-                        <h5>216 Trinity Ave, Pasadena,</h5>
-                        <h5>CA 95046, United States</h5>
+                        <p><i class="fa fa-map-marker"></i>Address</p>
+                        <h5>18, Udi Street, Osborne Foreshore, Ikoyi Lagos</h5>
+                        <!-- <h5>CA 95046, United States</h5> -->
                     </div>
                 </div>
             </div>

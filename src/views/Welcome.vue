@@ -216,7 +216,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
     <div class="gallery-area pd-top-92">
         <div class="container">
             <div class="section-title">
-                <h2 class="title">Photo Galary</h2>
+                <h2 class="title">Photo Gallery</h2>
             </div>
             <div class="row">
                 <div class="col-lg-7">
@@ -252,8 +252,8 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
             <div class="row">
                 <div class="col-xl-6 col-lg-7 align-self-center">
                     <div class="section-title mb-lg-0 mb-2">
-                        <h2 class="title">Base Floor Plan</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel eros quam. Sed sit amet dictum est, at fringilla enim. Praesent varius risus a convallis placerat. Aenean hendrerit lorem auctor ex condimentum. </p>
+                        <h2 class="title">Affordable Luxury</h2>
+                        <p>With top-notch furnishing and finishing, each unit is superbly designed to accommodate your style. While luxurious homes are what we offer, acquiring one from us is far from a tall order.</p>
                         <div class="floor-list">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
