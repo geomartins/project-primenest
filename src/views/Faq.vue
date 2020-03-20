@@ -22,7 +22,7 @@
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="section-title">
                         <h2 class="title">Frequently <br>asked questions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis enim vel leo laoreet, quis sodales purus blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> -->
                     </div>
                     <div class="accordion" id="accordion">
                         <!-- single accordion -->

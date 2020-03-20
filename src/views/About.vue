@@ -26,7 +26,7 @@
                         </div>
                         <div class="details">
                             <h4 class="title"><a href="#">Our Mission</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae venenatis mi</p>
+                            <p>Our mission is to improve people’s quality of life by providing stylish, affordable, and secure homes.</p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                         </div>
                         <div class="details">
                             <h4 class="title"><a href="#">Our Approach</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae venenatis mi</p>
+                            <p>Our responsive and energetic team undertakes each project, keeping in mind, the owner’s needs and specifications.</p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="details">
                             <h4 class="title"><a href="#">Our Philosohy</a></h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae venenatis mi</p>
+                            <p>We are in the business of building communities, with the aim to nurture possibilities through sociable involvement.</p>
                         </div>
                     </div>
                 </div>
@@ -87,9 +87,9 @@
     <div class="service-area service-area-about mg-bottom-100 pb-xl-5 pd-0">
         <div class="container">
             <div class="section-title">
-                <h5 class="sub-title">Best Service</h5>
-                <h2 class="title">Service We Provide</h2>
-                <p>Partner with a top neighborhood specialist to sell your home. Combined <br> with our high level marketing approach, negotiation skills,</p>
+                <!-- <h5 class="sub-title">Best Service</h5> -->
+                <h2 class="title"> Our Services </h2>
+                <p>Our services include property development, asset management, and construction.<br> We bring with us a wealth of industry experience that helps us to provide solutions in real estate.</p>
             </div>
             <div class="service-slider-2 row pb-xl-5 pd-0">
                 <div class="item">
@@ -99,7 +99,7 @@
                         </div>
                         <div class="details">
                             <h4 class="title"><a href="#">Property Development</a></h4>
-                            <p>Describe your home online and get <br> your appraisal in 5 minutes</p>
+                            <p>At Prime Nest, we oversee the progress of the project from the owner’s viewpoint.  We develop and manage our estate properties by forming strategic partnerships with organisations. We ascribe our success in the industry to our unyielding values.</p>
                             <a class="read-more" href="#">Read More</a>
                         </div>
                     </div>
@@ -110,8 +110,8 @@
                             <img src="assets/img/icons/20.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4 class="title"><a href="#">Business Consultancy</a></h4>
-                            <p>Describe your home online and get <br> your appraisal in 5 minutes</p>
+                            <h4 class="title"><a href="#">Asset Management</a></h4>
+                            <p>Owning an investment property goes with extra baggage. The ability to maintain and manage an investment property needs much time and effort. We help you manage your assets and ease access to the National Housing Fund from the Federal Mortgage Bank.</p>
                             <a class="read-more" href="#">Read More</a>
                         </div>
                     </div>
@@ -122,8 +122,8 @@
                             <img src="assets/img/icons/21.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4 class="title"><a href="#">Business planing</a></h4>
-                            <p>Describe your home online and get <br> your appraisal in 5 minutes</p>
+                            <h4 class="title"><a href="#">Construction </a></h4>
+                            <p>Our team of engineers work with decades of combined practical knowledge. They can undertake construction of a broad selection of infrastructure and property types. From pre-construction planning, budget development and execution, scheduling, and contract procurement, providing the highest quality standards is a trademark that’s consistent with our team’s process.</p>
                             <a class="read-more" href="#">Read More</a>
                         </div>
                     </div>
@@ -237,7 +237,9 @@ export default {
 
 
 <style>
-
+div .item{
+    flex-basis: 350px;
+}
 
 
 </style>

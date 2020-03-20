@@ -140,7 +140,7 @@
     <div class="properties-area pd-top-92">
         <div class="container">
             <div class="section-title">
-                <h2 class="title">Primenest Estate</h2>
+                <h2 class="title">PrimeNest Estate</h2>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-sm-6">

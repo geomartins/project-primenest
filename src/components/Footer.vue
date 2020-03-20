@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="copy-right text-center">
-                Copyright© 2020  <a href="/" target="_blank"> Primenest Solutions,</a> All rights reserved
+                Copyright© 2020  <a href="/" target="_blank"> Prime Nest Solutions,</a> All rights reserved
                 
             </div>
         </div>
