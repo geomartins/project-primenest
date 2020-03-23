@@ -33,13 +33,14 @@
                             <a href="#" class="feature-logo">
                                 <img src="assets/img/icons/l3.png" alt="icons">
                             </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
+                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
+                            <h6 class="title"><a href="#">LilyCourt Estate Lagos</a></h6>
+                            <h6 class="price">#12.8m/unit</h6>
+                            <!-- <del>$790/mo</del> -->
                             <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
+                                <li><i class="fa fa-bed"></i> 02 Bed</li>
                                 <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
+                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
@@ -59,13 +60,14 @@
                             <a href="#" class="feature-logo">
                                 <img src="assets/img/icons/l4.png" alt="icons">
                             </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
+                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
+                            <h6 class="title"><a href="#">LilyCourt Estate Lagos</a></h6>
+                            <h6 class="price">#14.8m/unit</h6>
+                            <!-- <del>$790/mo</del> -->
                             <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
+                                <li><i class="fa fa-bed"></i> 03 Bed</li>
+                                <li><i class="fa fa-bath"></i> 03 Bath</li>
+                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
@@ -153,13 +155,14 @@
                             <a href="#" class="feature-logo">
                                 <img src="assets/img/icons/l3.png" alt="icons">
                             </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
+                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
+                            <h6 class="title"><a href="#">Bricks Court Ifo</a></h6>
+                            <h6 class="price">#5m/unit</h6>
+                            <!-- <del>$790/mo</del> -->
                             <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
+                                <li><i class="fa fa-bed"></i> 03 Bed</li>
+                                <li><i class="fa fa-bath"></i> 03 Bath</li>
+                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
@@ -179,13 +182,14 @@
                             <a href="#" class="feature-logo">
                                 <img src="assets/img/icons/l4.png" alt="icons">
                             </a>
-                            <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p>
-                            <h6 class="title"><a href="#">Jason Landville Apartment</a></h6>
-                            <h6 class="price">$350/mo</h6><del>$790/mo</del>
+                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
+                            <h6 class="title"><a href="#">Bricks Court Sagamu</a></h6>
+                            <h6 class="price">#5m/unit</h6>
+                            <!-- <del>$790/mo</del> -->
                             <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 05 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 1898 sq.</li>
+                                <li><i class="fa fa-bed"></i> 03 Bed</li>
+                                <li><i class="fa fa-bath"></i> 03 Bath</li>
+                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
