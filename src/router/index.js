@@ -45,6 +45,26 @@ const routes = [
     name: "Error",
     component: () => import("../views/Error.vue")
   },
+  {
+    path: "/bricks-court-ifo",
+    name: "BricksCourtIfo",
+    component: () => import("../views/Ifo.vue")
+  },
+  {
+    path: "/bricks-court-sagamu",
+    name: "BricksCourtSagamu",
+    component: () => import("../views/Sagamu.vue")
+  },
+  {
+    path: "/lily-court-2bed",
+    name: "LilyCourtEstate2",
+    component: () => import("../views/Lily-2bed.vue")
+  },
+  {
+    path: "/lily-court-3bed",
+    name: "LilyCourtEstate3",
+    component: () => import("../views/Lily-3bed.vue")
+  },
   { path: '*', redirect: '/404'},
   // {
   //   path: "/about",

@@ -364,7 +364,8 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                                 <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li>
+                                <router-link to="/bricks-court-ifo" tag="a" class="btn btn-yellow"> View Details </router-link>
+                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -391,7 +392,8 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                                 <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li>
+                                <router-link to="/bricks-court-sagamu" tag="a" class="btn btn-yellow"> View Details </router-link>
+                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -418,7 +420,9 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                                 <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li>
+                                <router-link to="/lily-court-2bed" tag="a" class="btn btn-yellow"> View Details </router-link>
+<!-- 
+                                <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -445,7 +449,8 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                                 <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li>
+                                <router-link to="/lily-court-3bed" tag="a" class="btn btn-yellow"> View Details </router-link>
+                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
                             </ul>
                         </div>
                     </div>
