@@ -76,7 +76,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                     <div class="row">
                         <div class="col-xl-6 col-lg-7">
                             <div class="thumb">
-                                <img src="assets/img/others/4.png" alt="img">
+                                <img src="/img/hom.png" alt="img">
                             </div>
                         </div>
                         <div class="col-lg-6 align-self-end">
