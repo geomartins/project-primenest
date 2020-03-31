@@ -987,7 +987,7 @@ ul {
       margin-right: 6px; }
     .rld-list-style li i {
       margin-right: 6px;
-      background: rgba(253, 169, 79, 0.1);
+      background: rgba(161, 144, 162, 0.19);
       color: var(--main-color-one);
       height: 24px;
       width: 24px;
@@ -3106,7 +3106,7 @@ ul {
 .single-floor-list {
   margin-bottom: 30px; }
   .single-floor-list .media-left {
-    background: #FFDEC5;
+    background: rgba(161, 144, 162, 0.19);
     border-radius: 5px;
     height: 40px;
     width: 40px;

@@ -466,6 +466,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
        
 
        <app-choose-us></app-choose-us>
+       
        <app-partner></app-partner>
        
 
