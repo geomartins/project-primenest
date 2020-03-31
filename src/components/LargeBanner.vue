@@ -1,6 +1,6 @@
 <template>
       <!-- banner area start -->
-    <div class="banner-area jarallax" style="background-image: url(/img/home2.png);">
+    <div class="banner-area jarallax" style="background-image: url(/img/home.png);">
         <div class="container">
             <div class="banner-inner-wrap">
                 <div class="row">
