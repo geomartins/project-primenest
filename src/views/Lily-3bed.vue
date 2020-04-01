@@ -26,7 +26,7 @@
                         <div class="property-details-slider">
                             <div class="item">
                                 <div class="thumb">
-                                    <img src="assets/img/news/19.png" alt="img">
+                                    <img src="/img/lil3.png" alt="img">
                                 </div>
                             </div>
                           
@@ -135,29 +135,29 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <ul class="rld-list-style mb-3 mb-sm-0">
-                                    <li><i class="fa fa-check"></i> Attic</li>
-                                    <li><i class="fa fa-check"></i> Poll</li>
-                                    <li><i class="fa fa-check"></i> Concierge</li>
-                                    <li><i class="fa fa-check"></i> Basketball Cout</li>
-                                    <li><i class="fa fa-check"></i> Sprinklers</li>
+                                    <li><i class="fa fa-check"></i> 24hrs security personnel</li>
+                                    <li><i class="fa fa-check"></i> Children layground</li>
+                                    <li><i class="fa fa-check"></i> Well drainage system</li>
+                                    <!-- <li><i class="fa fa-check"></i> Basketball Cout</li>
+                                    <li><i class="fa fa-check"></i> Sprinklers</li> -->
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="rld-list-style mb-3 mb-sm-0">
-                                    <li><i class="fa fa-check"></i> Recreation</li>
-                                    <li><i class="fa fa-check"></i> Front Yard</li>
-                                    <li><i class="fa fa-check"></i> Wine Cellar</li>
+                                    <li><i class="fa fa-check"></i>24hrs uninteruppted power supply</li>
+                                    <li><i class="fa fa-check"></i> Ample parking space</li>
+                                    <!-- <li><i class="fa fa-check"></i> Wine Cellar</li>
                                     <li><i class="fa fa-check"></i> Basketball Cout</li>
-                                    <li><i class="fa fa-check"></i> Fireplace</li>
+                                    <li><i class="fa fa-check"></i> Fireplace</li> -->
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="rld-list-style mb-3 mb-sm-0">
-                                    <li><i class="fa fa-check"></i> Balcony</li>
-                                    <li><i class="fa fa-check"></i> Pound</li>
-                                    <li><i class="fa fa-check"></i> Deck</li>
+                                    <li><i class="fa fa-check"></i> CCTV camera</li>
+                                    <li><i class="fa fa-check"></i> Adequate water supply</li>
+                                    <!-- <li><i class="fa fa-check"></i> Deck</li>
                                     <li><i class="fa fa-check"></i> 24x7 Security</li>
-                                    <li><i class="fa fa-check"></i> Indoor Game</li>
+                                    <li><i class="fa fa-check"></i> Indoor Game</li> -->
                                 </ul>
                             </div>
                         </div>

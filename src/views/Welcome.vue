@@ -345,7 +345,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="assets/img/feature/4.png" alt="img">
+                            <img src="/img/3 1.png" alt="img">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
@@ -373,7 +373,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="assets/img/feature/5.png" alt="img">
+                            <img src="/img/3 2.jpg" alt="img">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
@@ -401,7 +401,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="assets/img/feature/6.png" alt="img">
+                            <img src="/img/2 1.png" alt="img">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
@@ -430,7 +430,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="assets/img/feature/7.png" alt="img">
+                            <img src="/img/2 2.jpg" alt="img">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
