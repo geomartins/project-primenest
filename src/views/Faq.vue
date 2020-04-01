@@ -86,7 +86,7 @@
                 <div class="col-xl-5 col-lg-6 offset-xl-1">
                     <div class="shape-image-list-wrap">
                         <div class="shape-image-list left-top">
-                            <img src="assets/img/others/6.png" alt="img">
+                            <img src="/img/faq1.png" alt="img">
                         </div>
                     </div>
                 </div>
