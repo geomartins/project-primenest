@@ -17,16 +17,17 @@
 
 
     <!-- Properties by city start -->
-    <div class="properties-area pd-top-92">
+    <div class="properties-area pd-top-92" v-for="(estate,index) in estates" :key="index+'estate'">
         <div class="container">
             <div class="section-title">
-                <h2 class="title">LilyCourt Estate</h2>
+                <h2 class="title">{{ estate.name }}</h2>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+
+                <div class="col-lg-3 col-sm-6" v-for="(estate_detail, index) in fetchEstateDetailsUsingCode(estate.code)" :key="index+'estate_detail'">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="/img/2 1.png" alt="img">
+                            <img :src="estate_detail.featured_thumbnail" alt="img">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
@@ -34,52 +35,25 @@
                                 <img src="assets/img/icons/l3.png" alt="icons">
                             </a>
                             <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
-                            <h6 class="title"><a href="#">LilyCourt Estate Lagos</a></h6>
-                            <h6 class="price">#12.8m/unit</h6>
+                            <h6 class="title"><a href="#">{{ estate_detail.name }}</a></h6>
+                            <h6 class="price">&#8358;{{ estate_detail.price | number_format }}/unit</h6>
                             <!-- <del>$790/mo</del> -->
                             <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 02 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
+                                <li><i class="fa fa-bed"></i> {{ estate_detail.keypoint.bedroom }} Bed</li>
+                                <li><i class="fa fa-bath"></i> {{ estate_detail.keypoint.bathroom }} Bath</li>
+                                <li><img src="assets/img/icons/7.png" alt="img"> {{ estate_detail.keypoint.area }} sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                                 <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/lily-court-2bed" tag="a" class="btn btn-yellow"> View Details </router-link>
+                                <router-link :to="{ name: 'PropertyDetails', params: { name: convertToSlug(estate_detail.name) } }" tag="a" class="btn btn-yellow"> View Details </router-link>
                                 <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
-                        <div class="thumb">
-                            <img src="/img/2 2.jpg" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                        </div>
-                        <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l4.png" alt="icons">
-                            </a>
-                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
-                            <h6 class="title"><a href="#">LilyCourt Estate Lagos</a></h6>
-                            <h6 class="price">#14.8m/unit</h6>
-                            <!-- <del>$790/mo</del> -->
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 03 Bed</li>
-                                <li><i class="fa fa-bath"></i> 03 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/lily-court-3bed" tag="a" class="btn btn-yellow"> View Details </router-link>
-                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-               
+                
+
               
                
                
@@ -90,79 +64,7 @@
 
 
 
-     <!-- Properties by city start -->
-    <div class="properties-area pd-top-92">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="title">PrimeNest Estate</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
-                        <div class="thumb">
-                            <img src="/img/3 1.png" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                        </div>
-                        <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l3.png" alt="icons">
-                            </a>
-                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
-                            <h6 class="title"><a href="#">Bricks Court Ifo</a></h6>
-                            <h6 class="price">#5m/unit</h6>
-                            <!-- <del>$790/mo</del> -->
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 03 Bed</li>
-                                <li><i class="fa fa-bath"></i> 03 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/bricks-court-ifo" tag="a" class="btn btn-yellow"> View Details </router-link>
-                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
-                        <div class="thumb">
-                            <img src="/img/3 2.jpg" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                        </div>
-                        <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l4.png" alt="icons">
-                            </a>
-                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
-                            <h6 class="title"><a href="#">Bricks Court Sagamu</a></h6>
-                            <h6 class="price">#5m/unit</h6>
-                            <!-- <del>$790/mo</del> -->
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 03 Bed</li>
-                                <li><i class="fa fa-bath"></i> 03 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/bricks-court-sagamu" tag="a" class="btn btn-yellow"> View Details </router-link>
-
-                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-               
-                
-               
-               
-            </div>
-        </div>
-    </div>
-    <!-- Properties by city end -->
-
+   
        
    </app-master>
 
@@ -176,12 +78,27 @@
 // @ is an alias to /src
 import Master from "@/components/Master.vue";
 import BreadCrumb from "@/components/BreadCrumb.vue"
+import {seo} from "../Repositories/seo.js"
+import {pick} from "../Repositories/pick.js"
+import {vuesax} from "../Repositories/vuesax"
+import { database } from "../Repositories/database"
 
 export default {
   name: "Property",
+  mixins: [seo,pick,vuesax,database],
   components: {
     "app-master" : Master,
     "app-breadcrumb" : BreadCrumb
+  },
+  data(){
+      return {
+
+      }
+  },
+
+  created(){
+      this.seoMetaData('Properties' , '');
+      console.log(this.fetchEstateDetailsUsingCode('primenest'));
   }
 };
 </script>

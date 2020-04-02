@@ -31,7 +31,7 @@ const routes = [
     component: () => import("../views/Property.vue")
   },
   {
-    path: "/property_details",
+    path: "/property_details/:name",
     name: "PropertyDetails",
     component: () => import("../views/PropertyDetails.vue")
   },
