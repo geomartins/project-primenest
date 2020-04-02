@@ -64,7 +64,7 @@
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="shape-image-list-wrap">
                         <div class="shape-image-list left-top">
-                            <img class="shadow-img" src="assets/img/others/7.png" alt="img">
+                            <img class="shadow-img" src="/img/ab.png" alt="img">
                         </div>
                     </div>
                 </div>
