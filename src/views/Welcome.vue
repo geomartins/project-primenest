@@ -201,7 +201,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
      <!-- call to action area start -->
     <div class="call-to-action-area pd-top-100">
         <div class="container">
-            <div class="call-to-action style-two" style="background-image: url(assets/img/bg/1.png);">
+            <div class="call-to-action style-two" style="background-image: url(/img/afford.png);">
                 <div class="cta-content">
                     <h3 class="title">Contact With Our Certificate Agent</h3>
                     <a class="btn btn-white mb-2 mb-sm-0 mr-2" href="#">Make a Call</a>
@@ -221,22 +221,22 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
             <div class="row">
                 <div class="col-lg-7">
                     <div class="gallery-thumb">
-                        <img src="assets/img/gallery/1.png" alt="img">
+                        <img src="/img/gal1.png" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="gallery-thumb">
-                        <img src="assets/img/gallery/2.png" alt="img">
+                        <img src="/img/gal2.png" alt="img">
                     </div>
                     <div class="row">   
                         <div class="col-sm-7">  
                             <div class="gallery-thumb">
-                                <img src="assets/img/gallery/3.png" alt="img">
+                                <img src="/img/gal3.png" alt="img">
                             </div>    
                         </div>
                         <div class="col-sm-5">  
                             <div class="gallery-thumb">
-                                <img src="assets/img/gallery/4.png" alt="img">
+                                <img src="/img/gal4.png" alt="img">
                             </div>
                         </div>
                     </div>
@@ -327,7 +327,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-5 align-self-center">
-                    <img src="assets/img/others/5.png" alt="img">
+                    <img src="/img/afford.png" alt="img">
                 </div>
             </div>
         </div>

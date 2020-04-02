@@ -26,7 +26,7 @@
                         <div class="property-details-slider">
                             <div class="item">
                                 <div class="thumb">
-                                    <img src="/img/ifo1.png" alt="img">
+                                    <img src="/img/ifo2.png" alt="img">
                                 </div>
                             </div>
                           
