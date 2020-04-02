@@ -1275,7 +1275,9 @@ ul {
 
 .widget-owner-info .contact {
   padding: 27px 30px 30px;
-  border-bottom: 1px solid rgba(197, 197, 197, 0.5); }
+  border-bottom: 1px solid rgba(197, 197, 197, 0.5);
+  border-top: 1px solid rgba(197, 197, 197, 0.5);
+}
   .widget-owner-info .contact .rld-single-input {
     margin-bottom: 20px; }
     .widget-owner-info .contact .rld-single-input input {

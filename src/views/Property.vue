@@ -46,7 +46,7 @@
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                                 <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link :to="{ name: 'PropertyDetails', params: { name: convertToSlug(estate_detail.name) } }" tag="a" class="btn btn-yellow"> View Details </router-link>
+                                <router-link :to="{ name: 'PropertyDetails', params: { estate: estate_detail.estate_code,name: convertToSlug(estate_detail.name) } }" tag="a" class="btn btn-yellow"> View Details </router-link>
                                 <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
                             </ul>
                         </div>

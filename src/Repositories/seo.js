@@ -7,7 +7,7 @@ export const seo ={
     },
 
     metaInfo: {
-        title: 'Nardus ',
+        title: 'Primenest ',
         meta: [{
           vmid: 'description',
           name: 'description',
