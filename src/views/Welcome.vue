@@ -342,119 +342,38 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                 <!-- <a class="btn-view-all" href="#">View All</a> -->
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+
+                <div class="col-lg-3 col-sm-6" v-for="(estate_detail, index) in estate_details" :key="index+'estate_detail'">
                     <div class="single-feature">
                         <div class="thumb">
-                            <img src="/img/3 1.png" alt="img">
+                            <img :src="estate_detail.featured_thumbnail" alt="img">
                             <a href="#"><i class="fa fa-heart"></i></a>
                         </div>
                         <div class="details">
                             <a href="#" class="feature-logo">
                                 <img src="assets/img/icons/l3.png" alt="icons">
                             </a>
-                            <!-- <p class="author"><i class="fa fa-user"></i>By PrimeNest</p> -->
-                            <h6 class="title"><a href="#">Bricks Court Ifo</a></h6>
-                            <h6 class="price">#5m/unit</h6>
+                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
+                            <h6 class="title"><a href="#">{{ estate_detail.name }}</a></h6>
+                            <h6 class="price">&#8358;{{ estate_detail.price | number_format }}/unit</h6>
                             <!-- <del>$790/mo</del> -->
                             <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 03 Bed</li>
-                                <li><i class="fa fa-bath"></i> 03 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
+                                <li><i class="fa fa-bed"></i> {{ estate_detail.keypoint.bedroom }} Bed</li>
+                                <li><i class="fa fa-bath"></i> {{ estate_detail.keypoint.bathroom }} Bath</li>
+                                <li><img src="assets/img/icons/7.png" alt="img"> {{ estate_detail.keypoint.area }} sqm.</li>
                             </ul>
                             <ul class="contact-list">
                                 <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
                                 <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/bricks-court-ifo" tag="a" class="btn btn-yellow"> View Details </router-link>
+                                <router-link :to="{ name: 'PropertyDetails', params: { estate: estate_detail.estate_code,name: convertToSlug(estate_detail.name) } }" tag="a" class="btn btn-yellow"> View Details </router-link>
                                 <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
-                        <div class="thumb">
-                            <img src="/img/3 2.jpg" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                        </div>
-                        <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l4.png" alt="icons">
-                            </a>
-                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
-                            <h6 class="title"><a href="#">Bricks Court Sagamu</a></h6>
-                            <h6 class="price">#5m/unit</h6>
-                            <!-- <del>$790/mo</del> -->
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 03 Bed</li>
-                                <li><i class="fa fa-bath"></i> 03 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/bricks-court-sagamu" tag="a" class="btn btn-yellow"> View Details </router-link>
-                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
-                        <div class="thumb">
-                            <img src="/img/2 1.png" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                        </div>
-                        <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l5.png" alt="icons">
-                            </a>
-                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
-                            <h6 class="title"><a href="#">LilyCourt Estate Lagos</a></h6>
-                            <h6 class="price">#12.8m/unit</h6>
-                            <!-- <del>#12.8m/unit</del> -->
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 02 Bed</li>
-                                <li><i class="fa fa-bath"></i> 02 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/lily-court-2bed" tag="a" class="btn btn-yellow"> View Details </router-link>
-<!-- 
-                                <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-feature">
-                        <div class="thumb">
-                            <img src="/img/2 2.jpg" alt="img">
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                        </div>
-                        <div class="details">
-                            <a href="#" class="feature-logo">
-                                <img src="assets/img/icons/l6.png" alt="icons">
-                            </a>
-                            <!-- <p class="author"><i class="fa fa-user"></i> Vilma Jarvi By Redbrox</p> -->
-                            <h6 class="title"><a href="#">LilyCourt Estate Lagos</a></h6>
-                            <h6 class="price">#14.8m/unit</h6>
-                            <!-- <del>$790/mo</del> -->
-                            <ul class="info-list">
-                                <li><i class="fa fa-bed"></i> 03 Bed</li>
-                                <li><i class="fa fa-bath"></i> 03 Bath</li>
-                                <li><img src="assets/img/icons/7.png" alt="img"> 300 sqm.</li>
-                            </ul>
-                            <ul class="contact-list">
-                                <li><a class="phone" href="#"><i class="fa fa-phone"></i></a></li>
-                                <li><a class="message" href="#"><img src="assets/img/icons/8.png" alt="img"></a></li>
-                                <router-link to="/lily-court-3bed" tag="a" class="btn btn-yellow"> View Details </router-link>
-                                <!-- <li><a class="btn btn-yellow" href="#">View Details</a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+               
+            
             </div>
         </div>
     </div>
@@ -489,15 +408,23 @@ import Master from "@/components/Master.vue";
 import Partner from "@/components/Partner.vue";
 import LargeBanner from "@/components/LargeBanner.vue"
 import ChooseUs from "@/components/ChooseUs.vue"
+import {seo} from "../Repositories/seo.js"
+import {pick} from "../Repositories/pick.js"
+import {vuesax} from "../Repositories/vuesax"
+import { database } from "../Repositories/database"
 
 export default {
   name: "Welcome",
+   mixins: [seo,pick,vuesax,database],
   components: {
     "app-master" : Master,
     "app-partner": Partner,
     "app-large-banner": LargeBanner,
     "app-choose-us" : ChooseUs
     
+  },
+  created(){
+       this.seoMetaData('Home' , '');
   }
 };
 </script>

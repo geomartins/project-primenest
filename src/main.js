@@ -3,7 +3,10 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
-//import VueMeta from 'vue-meta'
+import VueMeta from 'vue-meta'
+import Vuesax from 'vuesax'
+import 'vuesax/dist/vuesax.css' //Vuesax styles
+
 
 Vue.config.productionTip = false;
 
@@ -11,7 +14,10 @@ Vue.config.productionTip = false;
 
 
 
-//Vue.use(VueMeta)
+Vue.use(VueMeta)
+Vue.use(Vuesax, {
+  // options here
+})
 
 new Vue({
   router,

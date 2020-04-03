@@ -98,7 +98,6 @@ export default {
 
   created(){
       this.seoMetaData('Properties' , '');
-      console.log(this.fetchEstateDetailsUsingCode('primenest'));
   }
 };
 </script>

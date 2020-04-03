@@ -27,12 +27,17 @@
 <script>
 // @ is an alias to /src
 import Master from "@/components/Master.vue";
+import { seo } from "../Repositories/seo"
+
 
 export default {
   name: "Error",
+  mixins: [seo],
   components: {
     "app-master" : Master,
-   
+  },
+  created(){
+       this.seoMetaData('Page Not Found' , '');
   }
 };
 </script>

@@ -26,7 +26,8 @@
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">
-                    <a class="btn btn-yellow" href="/application">APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></a>
+                    <router-link class="btn btn-yellow" to='/application'>APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></router-link>
+                   
                 </div>
             </div>
         </nav>
