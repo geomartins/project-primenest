@@ -142,7 +142,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/1.png" alt="team">
+                            <img src="/img/a1.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Louis Rowley</h4>
@@ -158,7 +158,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/2.png" alt="team">
+                            <img src="/img/a2.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Riley Moss</h4>
@@ -174,7 +174,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/3.png" alt="team">
+                            <img src="/img/a3.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Max Gotch</h4>
@@ -190,7 +190,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/4.png" alt="team">
+                            <img src="/img/a4.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Jamie Coal</h4>
