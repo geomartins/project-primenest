@@ -203,9 +203,11 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
         <div class="container">
             <div class="call-to-action style-two" style="background-image: url(/img/afford.png);">
                 <div class="cta-content">
-                    <h3 class="title">Contact With Our Certificate Agent</h3>
-                    <a class="btn btn-white mb-2 mb-sm-0 mr-2" href="#">Make a Call</a>
-                    <a class="btn btn-white mb-2 mb-sm-0 mr-xl-3 mr-0" href="#">Get Appoinment</a>
+                    <h3 class="title">Contact With Our Property Agent</h3>
+                    <router-link class="btn btn-white mb-2 mb-sm-0 mr-2" tag="a" to="/contact"> Make a Call </router-link>
+                    <router-link class="btn btn-white mb-2 mb-sm-0 mr-xl-3 mr-0" tag="a" to="/property"> Get a Property </router-link>
+                    <!-- <a class="btn btn-white mb-2 mb-sm-0 mr-2" href="#">Make a Call</a>
+                    <a class="btn btn-white mb-2 mb-sm-0 mr-xl-3 mr-0" href="#">Get Appoinment</a> -->
                 </div>
             </div>
         </div>

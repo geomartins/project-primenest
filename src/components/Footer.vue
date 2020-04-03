@@ -12,13 +12,13 @@
                             <span>FOLLOW US</span>
                             <ul class="social-icon">
                                 <li>
-                                    <a href="https://www.facebook.com/codingeek.net/" target="_blank"><i class="fa fa-facebook  "></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-facebook  "></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/codingeeknet" target="_blank"><i class="fa fa-twitter  "></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-twitter  "></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/company/codingeek/about/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>  
