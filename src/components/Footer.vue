@@ -15,10 +15,10 @@
                                     <a href="#" target="_blank"><i class="fa fa-facebook  "></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank"><i class="fa fa-twitter  "></i></a>
+                                    <a href="https://twitter.com/primenestng" target="_blank"><i class="fa fa-twitter  "></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/primenestng/" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>  
