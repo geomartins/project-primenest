@@ -26,7 +26,7 @@
                         </div>
                         <div class="details">
                             <h4 class="title"><a href="#">Our Mission</a></h4>
-                            <p>Our mission is to improve people’s quality of life by providing stylish, affordable, and secure homes.</p>
+                            <p>Committed to make your home ownership dream to reality.</p>
                         </div>
                     </div>
                 </div>

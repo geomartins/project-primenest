@@ -13,7 +13,7 @@ export const database ={
                 //1
                 { 
                     estate_code: 'primenest', 
-                    name: 'Brick Court Ifo',
+                    name: 'Bricks Court Ifo',
                     price: '5000000',
                     featured_thumbnail: '/img/3 1.png',
                     featured_image: '/img/ifo1.png',
@@ -95,10 +95,10 @@ export const database ={
                  //3
                  { 
                     estate_code: 'lilycourt', 
-                    name: '2 bedroom',
+                    name: 'LilyCourt Akinde',
                     price: '12800000',
-                    featured_thumbnail: '/img/2 1.png',
-                    featured_image: '/img/lil2.png',
+                    featured_thumbnail: '/img/lilo.png',
+                    featured_image: '/img/biglil.png',
                     
 
                     keypoint: {
@@ -138,10 +138,10 @@ export const database ={
                  //4
                  { 
                     estate_code: 'lilycourt', 
-                    name: '3 bedroom',
+                    name: 'LilyCourt Ajegunle',
                     price: '14800000',
-                    featured_thumbnail: '/img/2 2.jpg',
-                    featured_image: '/img/lil3.png',
+                    featured_thumbnail: '/img/lilo.png',
+                    featured_image: '/img/biglil.png',
                     
 
                     keypoint: {

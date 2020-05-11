@@ -313,7 +313,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-sm-6">
+                                <!-- <div class="col-md-4 col-sm-6">
                                     <div class="single-floor-list media">
                                         <div class="media-left">
                                             <img src="assets/img/icons/17.png" alt="img">
@@ -323,7 +323,7 @@ Enjoy a treated water system, a central sewage system, and uninterrupted electri
                                             <p>20 x 16 sq feet</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
