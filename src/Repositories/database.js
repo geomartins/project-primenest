@@ -14,7 +14,7 @@ export const database ={
                 { 
                     estate_code: 'primenest', 
                     name: 'Bricks Court Ifo',
-                    price: '5000000',
+                    price: '6000000',
                     featured_thumbnail: '/img/3 1.png',
                     featured_image: '/img/ifo1.png',
                     
@@ -55,9 +55,9 @@ export const database ={
                  { 
                     estate_code: 'primenest', 
                     name: 'Bricks Court Sagamu',
-                    price: '5000000',
-                    featured_thumbnail: '/img/3 2.jpg',
-                    featured_image: '/img/ifo2.png',
+                    price: '6000000',
+                    featured_thumbnail: '/img/3 1.png',
+                    featured_image: '/img/ifo1.png',
                     
 
                     keypoint: {
@@ -139,7 +139,7 @@ export const database ={
                  { 
                     estate_code: 'lilycourt', 
                     name: 'LilyCourt Ajegunle',
-                    price: '14800000',
+                    price: '14500000',
                     featured_thumbnail: '/img/lilo.png',
                     featured_image: '/img/biglil.png',
                     
