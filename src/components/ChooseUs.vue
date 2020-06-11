@@ -24,8 +24,8 @@
                              <img src="assets/img/icons/11.png" alt="img">
                         </div>
                         <div class="details">
-                            <h4 class="title"><a href="#">Certificate of Ownership</a></h4>
-                            <p>Our estates have a certificate of ownership and other cogent documents backed by the state’s authority. This eliminates concerns that border on government’s forceful reacquisition.</p>
+                            <h4 class="title"><a href="#">Certificate of Occupancy</a></h4>
+                            <p>Our estates have a certificate of occupancy and other cogent documents backed by the state’s authority. This eliminates concerns that border on government’s forceful reacquisition.</p>
                         </div>
                     </div>
                 </div>
