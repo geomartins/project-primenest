@@ -13,7 +13,7 @@ export const database ={
                 //1
                 { 
                     estate_code: 'primenest', 
-                    name: 'Bricks Court Ifo',
+                    name: 'Bricks Court Abeokuta',
                     price: '6000000',
                     featured_thumbnail: '/img/3 1.png',
                     featured_image: '/img/ifo1.png',
@@ -56,8 +56,8 @@ export const database ={
                     estate_code: 'primenest', 
                     name: 'Bricks Court Sagamu',
                     price: '6000000',
-                    featured_thumbnail: '/img/3 1.png',
-                    featured_image: '/img/ifo1.png',
+                    featured_thumbnail: '/img/3 2.png',
+                    featured_image: '/img/ifo2.png',
                     
 
                     keypoint: {
@@ -95,7 +95,7 @@ export const database ={
                  //3
                  { 
                     estate_code: 'lilycourt', 
-                    name: 'LilyCourt Akinde',
+                    name: 'LilyCourt Ajegunle 1',
                     price: '12800000',
                     featured_thumbnail: '/img/lilo.png',
                     featured_image: '/img/biglil.png',
@@ -103,7 +103,7 @@ export const database ={
 
                     keypoint: {
                         bedroom: '02',
-                        bathroom: '02',
+                        bathroom: '03',
                         area: '300',
                         parking: '02 Outdoor',
                     },
@@ -138,7 +138,7 @@ export const database ={
                  //4
                  { 
                     estate_code: 'lilycourt', 
-                    name: 'LilyCourt Ajegunle',
+                    name: 'LilyCourt Ajegunle 2',
                     price: '14500000',
                     featured_thumbnail: '/img/lilo.png',
                     featured_image: '/img/biglil.png',
@@ -146,7 +146,7 @@ export const database ={
 
                     keypoint: {
                         bedroom: '03',
-                        bathroom: '03',
+                        bathroom: '04',
                         area: '300',
                         parking: '02 Outdoor',
                     },
