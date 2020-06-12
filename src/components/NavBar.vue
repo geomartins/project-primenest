@@ -14,7 +14,7 @@
                     <a href="/"><img src="/img/logo.png" alt="logo"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
-                    <a class="btn btn-yellow" href="/application">APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></a>
+                    <router-link class="btn btn-yellow" to='/application'>APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></router-link>
                 </div>
                 <div class="collapse navbar-collapse" id="realdeal_main_menu">
                     <ul class="navbar-nav menu-open">
@@ -45,6 +45,11 @@ export default {
 </script>
 
 
-<style scoped>
+<style >
+
+.collapse{display:none!important}
+.collapse.show {
+    display: block!important;
+}
 
 </style>
