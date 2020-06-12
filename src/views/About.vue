@@ -7,7 +7,7 @@
          <div class="breadcrumb-inner">
             <h1 class="page-title">About us</h1>
             <ul class="page-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>About</li>
             </ul>
         </div>
@@ -26,7 +26,7 @@
                         </div>
                         <div class="details">
                             <h4 class="title"><a href="#">Our Mission</a></h4>
-                            <p>Our mission is to improve people’s quality of life by providing stylish, affordable, and secure homes.</p>
+                            <p>Committed to make your home ownership dream to reality.</p>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/1.png" alt="team">
+                            <img src="/img/1.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Louis Rowley</h4>
@@ -158,7 +158,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/2.png" alt="team">
+                            <img src="/img/1.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Riley Moss</h4>
@@ -174,7 +174,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/3.png" alt="team">
+                            <img src="/img/1.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Max Gotch</h4>
@@ -190,7 +190,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-team">
                         <div class="thumb">
-                            <img src="assets/img/team/4.png" alt="team">
+                            <img src="/img/1.png" alt="team">
                         </div>
                         <div class="team-details">
                             <h4>Jamie Coal</h4>

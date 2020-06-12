@@ -9,24 +9,24 @@
             <div class="client-slider">
                 <div class="item">
                     <div class="thumb">
-                        <img src="assets/img/client/1.png" alt="client">
+                        <img src="/img/pat1.png" alt="client">
                     </div>
                 </div>
                 <div class="item">
                     <div class="thumb">
-                        <img src="assets/img/client/2.png" alt="client">
+                        <img src="/img/pat2.png" alt="client">
                     </div>
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <div class="thumb">
                         <img src="assets/img/client/3.png" alt="client">
                     </div>
-                </div>
-                <div class="item">
+                </div> -->
+                <!-- <div class="item">
                     <div class="thumb">
                         <img src="assets/img/client/4.png" alt="client">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
