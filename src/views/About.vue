@@ -133,7 +133,7 @@
     </div>
     <!-- service area end -->
     <!-- team area start -->
-    <div class="team-area bg-gray mg-top-70 pd-top-90 pd-bottom-70">
+    <!-- <div class="team-area bg-gray mg-top-70 pd-top-90 pd-bottom-70">
         <div class="container">
             <div class="section-title text-center">
                 <h2 class="title">We Are Dynamic Team</h2>
@@ -205,7 +205,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- team area End -->
 
     
