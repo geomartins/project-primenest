@@ -7,7 +7,7 @@
     <div class="error-page text-center">
         <div class="container">
             <div class="error-page-wrap d-inline-block">
-                <a href="index.html">Go Back</a>
+                <a href="/">Go Back</a>
                 <h2>404</h2>
             </div>
         </div>
