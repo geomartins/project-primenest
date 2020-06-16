@@ -7,7 +7,7 @@
          <div class="breadcrumb-inner">
             <h1 class="page-title">Properties</h1>
             <ul class="page-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Properties by Estate</li>
             </ul>
         </div>

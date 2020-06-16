@@ -8,7 +8,7 @@
          <div class="breadcrumb-inner">
             <h1 class="page-title">Contact</h1>
             <ul class="page-list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Contact</li>
             </ul>
         </div>
@@ -21,26 +21,26 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-page-map">
-                        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60021.82409444856!2d-122.40118071595978!3d37.7546723469594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1577786376747!5m2!1sen!2sbd" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe class="w-100" src="https://maps.google.com/maps?q=18%2C%20Udi%20Street%2C%20Osborne%20Foreshore%2C%20Ikoyi%20Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"  style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <form class="contact-form-wrap contact-form-bg">
                         <h4>Contact Now</h4>
                         <div class="rld-single-input">
-                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Name"  @keyup="formData.name = $event.target.value" ref="name">
                         </div>
                         <div class="rld-single-input">
-                            <input type="text" placeholder="Phone">
+                            <input type="text" placeholder="Phone"  @keyup="formData.phone = $event.target.value" ref="phone">
                         </div>
                         <div class="rld-single-input">
-                            <input type="text" placeholder="Phone">
+                            <input type="text" placeholder="Email" @keyup="formData.email = $event.target.value" ref="email">
                         </div>
                         <div class="rld-single-input">
-                            <textarea rows="10" placeholder="Message"></textarea>
+                            <textarea rows="10" placeholder="Message" @keyup="formData.message = $event.target.value" ref="message"></textarea>
                         </div>
                         <div class="btn-wrap text-center">
-                            <button class="btn btn-yellow">Submit</button>
+                            <button class="btn btn-yellow" @click.prevent="submit('SUBMIT_CONTACT_US_FORM')">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -92,17 +92,143 @@
 // @ is an alias to /src
 import Master from "@/components/Master.vue";
 import BreadCrumb from "@/components/BreadCrumb.vue"
+import { pick } from "../Repositories/pick"
 import { seo } from "../Repositories/seo"
+import { vuesax } from "../Repositories/vuesax"
 
 
 export default {
   name: "Contact",
-  mixins: [seo],
+  mixins: [seo,pick,vuesax],
   components: {
     "app-master" : Master,
     "app-breadcrumb" : BreadCrumb
   },
+  data(){
+      return{
+        //   name_place: 'fffffffffff',
+          formData: {
+           name: ' ',
+           phone: ' ',
+           email: ' ',
+           message: ' '
+           
+          }
+      }
+  },
+  computed: {
+    name: {
+        get(){
+            return this.formData.name;
+        },
+        set(value){
+            this.formData.name = value;
+        }    
+    },
+
+    phone: {
+        get(){
+            return this.formData.phone;
+        },
+        set(value){
+            this.formData.phone = value;
+        }    
+    },
+    email: {
+        get(){
+            return this.formData.email;
+        },
+        set(value){
+            this.formData.email = value;
+        }    
+    },
+    message: {
+        get(){
+            return this.formData.message;
+        },
+        set(value){
+            this.formData.message = value;
+        }    
+    },
+
+  },
+
+  methods:{
+      clearForm(){
+          //console.log(this.$refs)
+          this.$refs.name.value = '';
+          this.$refs.phone.value = ' ';
+          this.$refs.email.value = ' ';
+          this.$refs.message.value = ' '
+
+      },
+      api_params(value) {
+        if(value == "SUBMIT_CONTACT_US_FORM"){
+            return { ...this.formData, key: this.API_KEY }
+        }
+    },
+
+    async api_calls(value){
+
+        let response;
+        let x = this;
+
+
+
+
+        if(value == "SUBMIT_CONTACT_US_FORM"){
+
+            console.log('hello');
+            /** Start loader gif */
+          this.showLoading();
+
+          response = await this.$store.dispatch("contact_us_confirm", this.api_params(value));
+
+            /** If response contain status */
+            if( response && 'status' in response){
+              
+                /** If response status is 200 */
+                if(response.status == 200){
+
+                    x.showNotif({type: 'success', message: response.data.message });
+
+                    /** Clears all input field */
+                    x.clearForm( );
+                }
+
+
+                /** If response status is 400 or 404 */
+                if(response.status == 400 || response.status == 404){
+                  x.showNotif({type: 'warning', message: response.data.message });
+
+                }
+
+                /** If response contains error */
+                if(response.data.errors){
+                  x.showNotif({type: 'warning', message: response.data.errors });
+                  
+                }
+                
+              } 
+
+              /** End loader gif */
+              this.hideLoading();
+        }
+
+    },
+
+    async submit(value){
+        let x = this;
+      
+        if(value == "SUBMIT_CONTACT_US_FORM"){
+           this.api_calls(value);
+            
+        }
+
+    }
+  },
   created(){
+     
        this.seoMetaData('Contact Us' , '');
   }
 };
