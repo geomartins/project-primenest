@@ -11,7 +11,7 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="/"><img src="/img/logo.png" alt="logo"></a>
+                    <a href="/"><img src="/img/oooooo.png" alt="logo"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
                     <router-link class="btn btn-yellow" to='/application'>APPLICATION FORM <span class="right"><i class="la la-plus"></i></span></router-link>
