@@ -5,7 +5,7 @@
             <div class="footer-top">
                 <div class="row">
                     <div class="col-sm-4">
-                        <a class="footer-logo" href="#"><img src="/img/logo.png" alt="logo"></a>
+                        <a class="footer-logo" href="#"><img src="/img/oooooo.png" alt="logo"></a>
                     </div>
                     <div class="col-sm-8">
                         <div class="footer-social text-sm-right">

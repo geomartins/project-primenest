@@ -44,7 +44,7 @@ Version: 1.0.0
 -----------------*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:200,300,400,400i,500,600,700i&display=swap");
 :root {
-  --main-color-one: #914336;
+  --main-color-one: #B68CB8;
   --main-color-two: #FF6E63;
   --heading-color: #101425;
   --paragraph-color: #666;
@@ -604,7 +604,7 @@ ul {
     padding-right: 15px; }
 
 .btn-yellow {
-  background: var(--main-color-one);
+  background: #B68CB8;
   color: #fff; }
   .btn-yellow:hover, .btn-yellow:focus {
     color: #fff; }
@@ -725,7 +725,7 @@ ul {
     margin-top: -10px; }
   .section-title .btn-view-all-2 {
     font-weight: 600;
-    color: var(--main-color-one);
+    color: #B68CB8;
     padding-right: 30px;
     position: relative;
     margin-top: 14px;
@@ -988,7 +988,7 @@ ul {
     .rld-list-style li i {
       margin-right: 6px;
       background: rgba(161, 144, 162, 0.19);
-      color: var(--main-color-one);
+      color: #B68CB8;
       height: 24px;
       width: 24px;
       line-height: 24px;
@@ -1009,7 +1009,7 @@ ul {
   .rld-slider-extra .first {
     font-size: 45px;
     font-weight: 700;
-    color: var(--main-color-one);
+    color: #B68CB8;
     height: 55px;
     width: 55px;
     display: inline-block;
@@ -1032,7 +1032,7 @@ ul {
   height: 3px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: var(--main-color-one);
+  background-color: #B68CB8;
   background-image: -webkit-gradient(linear, left top, right top, from(var(--heading-color)), to(var(--heading-color)));
   background-image: -webkit-linear-gradient(left, var(--heading-color), var(--heading-color));
   background-image: -o-linear-gradient(left, var(--heading-color), var(--heading-color));
@@ -3092,7 +3092,7 @@ ul {
   transition: all 0.5s ease; }
   .cat-single img, .cat-single i {
     font-size: 46px;
-    color: var(--main-color-one);
+    color: #B68CB8;
     margin-bottom: 15px; }
   .cat-single p {
     font-size: 20px;
