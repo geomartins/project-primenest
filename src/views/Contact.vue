@@ -228,7 +228,6 @@ export default {
     }
   },
   created(){
-     
        this.seoMetaData('Contact Us' , '');
   }
 };

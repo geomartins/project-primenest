@@ -434,6 +434,20 @@ export default {
 
 <style>
 
+.vs-notifications p {
+    color: white!important;
+}
+
+.vs-notifications {
+    position: fixed;
+    z-index: 200000;
+    padding: 0px 5px!important;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+   
+}
+
 
 
 </style>
