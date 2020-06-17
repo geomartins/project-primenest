@@ -11,7 +11,7 @@ const actions = {
             try {
                 var response = await axios
                 .post(
-                    "https://www.agropark.com.ng/api/v1/section/distributors_registration",value
+                    "https://www.agropark.com.ng/api/v1/section/primenest_application",value
                 );
                console.log(response)
                 return await response;

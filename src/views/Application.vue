@@ -105,7 +105,7 @@ export default {
   methods: {
       api_params(value) {
         if(value == "SUBMIT_APPLICATION_FORM"){
-            return { ...this.formData, key: this.API_KEY }
+            return { ...this.userData, key: this.API_KEY }
         }
     },
 
@@ -133,7 +133,7 @@ export default {
                     x.showNotif({type: 'success', message: response.data.message });
 
                     /** Clears all input field */
-                    x.clearInputField(x.formData);
+                    x.clearInputField(x.userData);
                 }
 
 
