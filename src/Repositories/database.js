@@ -139,7 +139,7 @@ export const database ={
                  { 
                     estate_code: 'lilycourt', 
                     name: 'LilyCourt Ajegunle 2',
-                    price: '14500000',
+                    price: '14800000',
                     featured_thumbnail: '/img/lilo.png',
                     featured_image: '/img/biglil.png',
                     
